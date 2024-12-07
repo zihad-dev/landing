@@ -113,6 +113,72 @@ p {
   border: 1px solid #289bde;
 }
 /* navber css ends here */
+/* ====bnner css starts here===== */
+#bnner {
+  padding: 277px 0 350px 0;
+  background-color: var(--background-color);
+}
+.bnner_wrapper h4 {
+  color: #fff;
+  font-family: var(--font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+.bnner_wrapper h1 {
+  color: #fff;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 70px;
+  font-weight: 700;
+  line-height: normal;
+  width: 1117px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.bnner_btn {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.bnner_btn a {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  padding: 20px 30px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  transition: all linear.3s;
+}
+.bnner_btn a:hover {
+  background-color: #289bde;
+  border: 1px solid #289bde;
+}
+.bnner_emogi {
+  display: flex;
+  justify-content: space-between;
+}
+.bnner_emogi {
+  position: relative;
+}
+.bnner_emogi .bnner_left_emogi {
+  position: absolute;
+  width: 355px;
+  top: -315px;
+  left: -200px;
+}
+.bnner_emogi .bnner_right_emogi {
+  position: absolute;
+  width: 355px;
+  top: -315px;
+  right: -180px;
+}
+/* =====bnner css ends here===== */
 /* ======card part css starts here===== */
 .card_part {
   margin: 0 auto;
